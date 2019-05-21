@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateAccount"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="textPersonName"
+            android:hint="@string/Name"
+            android:id="@+id/Name"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="textPersonName"
+            android:hint="@string/Surname"
+            android:id="@+id/Surname"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:hint="@string/Email"
+            android:id="@+id/Email"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/Mot_de_Passe"
+            android:hint="@string/Mot_de_passe"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:hint="@string/ComfirmPassword"
+            android:id="@+id/ComfirmPassword"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="text"
+            android:hint="@string/years"
+            android:id="@+id/years"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="text"
+            android:hint="@string/weigth"
+            android:id="@+id/weigth"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:inputType="text"
+            android:hint="@string/heigth"
+            android:id="@+id/heigth"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC"
+        app:items_visible="three" />
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC"
+        app:items_visible="three" />
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker3"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC"
+        app:items_visible="three" />
+
+</LinearLayout>
+
